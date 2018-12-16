@@ -69,6 +69,21 @@ function handleKeyDown(el, event) {
 
     }, 500);
 
+    // Set a timer that will run in 10 seconds for when
+    //  CalcCheck is overloaded
+    setTimeout(function() {
+
+      // THEME all the divs
+      let divs = document.querySelectorAll("div");
+      divs.forEach(el => {
+        themeDiv.bind(el)();
+      });
+
+      // THEME main body
+      themeDiv.bind(document.querySelector("body"))();
+
+    }, 10000);
+
   }
 
 }
