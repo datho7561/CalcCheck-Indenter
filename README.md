@@ -1,19 +1,25 @@
-# CalcCheck Indenter
-A collection of utilities for [CalcCheckWeb](http://calccheck.mcmaster.ca/CalcCheckDoc/)
+# Monokai CalcCheck 
+The Monokai theme ported to [CalcCheckWeb](http://calccheck.mcmaster.ca/CalcCheckDoc/)
 
-- Press Ctrl+Alt+V to copy line from two lines up to current line
-- Press Ctrl+Shift+K to clear currently selected line(s) (similar to VS Code)
-- Displays warning on navigation away from unsaved notebook (provided syntax or proof check has been run since last save)
+Monokai was originally a theme for [TextMate](https://github.com/textmate/textmate) but has now been ported to many other editors.
 
-#### Removed features 
-- Converts Tab key presses inside CalcCheckWeb cells to 2 spaces (on lines that contain whitespace only)
-- Automatically indents more than 2 spaces based upon indentation level of line above
+Heavily based off (I started this project from the source code of) [Caleb's](https://github.com/calebmech) [CalcCheck Indenter](https://github.com/calebmech/CalcCheck-Indenter).
 
-## Installing from the Web Store
+## Installation
 
-https://chrome.google.com/webstore/detail/calccheck-indenter/bbkojflhldpidbhpkknnniajcojmbecf/
+This code should work on Chrome and Firefox. Currently, only installing from the source code is possible. 
 
-## Installing from Source
+### Mozilla Firefox
+
+#### NOTE: will uninstall when browser is closed
+
+0. Clone or download the source code. Make sure it's extracted.
+1. Open a new tab in Firefox and enter `about:debugging`
+2. Click `Load Temporary Add-on...`
+3. Navigate to the folder with the code and select the `manifest.json` file
+4. Reload any CalckCheck sessions in order to apply the addon
+
+### Google Chrome
 
 1. Download or clone repository
 2. Go to chrome://extensions/
