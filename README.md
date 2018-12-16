@@ -27,3 +27,8 @@ This code should work on Chrome and Firefox. Currently, only installing from the
 4. Click "Load unpacked"
 5. Select directory of extracted extension
 6. Reload any previously open CalcCheck notebooks
+
+## Known Issues
+
+* Sometimes the proof checker output will appear white. The reason is the theme has to be reapplied to the proof checker box on each proof check. I am currently doing this on a timer, so if the proof takes longer than 0.5 seconds to check, the box will appear white.
+* When exiting a proof box using the `Escape` key, the background will change to white until the next time you edit the box
