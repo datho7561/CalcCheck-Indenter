@@ -17,7 +17,7 @@ This code should work on Chrome and Firefox. Currently, only installing from the
 1. Open a new tab in Firefox and enter `about:debugging`
 2. Click `Load Temporary Add-on...`
 3. Navigate to the folder with the code and select the `manifest.json` file
-4. Reload any CalckCheck sessions in order to apply the addon
+4. Reload any CalcCheck sessions in order to apply the addon
 
 ### Google Chrome
 
